@@ -1,4 +1,4 @@
-class Leetcode17 {
+class Leetcode0017 {
     //17. Letter Combinations of a Phone Number
     fun letterCombinations(digits: String): List<String> {
         var result = mutableListOf<String>()

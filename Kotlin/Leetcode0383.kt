@@ -1,4 +1,4 @@
-class Leetcode383 {
+class Leetcode0383 {
     fun canConstruct(ransomNote: String, magazine: String): Boolean {
         var magazineHash = mutableMapOf<Char, Int>()
         for(letter in magazine) {

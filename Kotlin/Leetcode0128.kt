@@ -1,4 +1,4 @@
-class Leetcode128 {
+class Leetcode0128 {
     fun longestConsecutive(nums: IntArray): Int {
         if(nums.size == 1) {
             return 1

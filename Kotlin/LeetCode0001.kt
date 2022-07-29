@@ -1,4 +1,4 @@
-class LeetCode1 {
+class LeetCode0001 {
     // 1. Two Sum
     fun twoSum(nums: IntArray, target: Int): IntArray {
         var sumMap = HashMap<Int, Int>()

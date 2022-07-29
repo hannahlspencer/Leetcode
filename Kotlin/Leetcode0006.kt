@@ -1,4 +1,4 @@
-class Leetcode6 {
+class Leetcode0006 {
     fun convert(s: String, numRows: Int): String {
         if(numRows == 1) {
             return s

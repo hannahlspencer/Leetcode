@@ -1,4 +1,4 @@
-class Leetcode242 {
+class Leetcode0242 {
     // 242. Valid Anagram
     // This solution, while feels very clean, isn't actually great for time - it's O(n log n)
     fun isAnagram(s: String, t: String): Boolean {

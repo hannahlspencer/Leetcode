@@ -1,4 +1,4 @@
-class Leetcode3 {
+class Leetcode0003 {
     fun lengthOfLongestSubstring(s: String): Int {
         var subStr = ""
         var longest = 0

@@ -1,4 +1,4 @@
-class Leetcode53 {
+class Leetcode0053 {
     fun maxSubArray(nums: IntArray): Int {
         var maxSub = nums[0]
         var currentSum = 0

@@ -1,4 +1,4 @@
-class LeetCode7 {
+class LeetCode0007 {
     // 7. Reverse Integer
     fun reverse(x: Int): Int {
         var result = x.toString()

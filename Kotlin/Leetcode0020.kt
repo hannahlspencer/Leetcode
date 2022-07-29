@@ -1,4 +1,4 @@
-class Leetcode20 {
+class Leetcode0020 {
     fun isValid(s: String): Boolean {
         val bracketStack = mutableListOf<Char>()
         val leftBrackets = listOf<Char>('(', '{', '[')

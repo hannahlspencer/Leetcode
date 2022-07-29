@@ -1,4 +1,4 @@
-class Leetcode70 {
+class Leetcode0070 {
     fun climbStairs(n: Int): Int {
         if(n == 1 || n == 2) {
             return n

@@ -1,4 +1,4 @@
-class Leetcode350 {
+class Leetcode0350 {
     // 350. Intersection of Two Arrays II
     fun intersect(nums1: IntArray, nums2: IntArray): IntArray {
         val first = hashMapOf<Int, Int>()

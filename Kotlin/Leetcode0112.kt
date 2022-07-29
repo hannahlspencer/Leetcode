@@ -1,4 +1,4 @@
-class Leetcode112 {
+class Leetcode0112 {
     // 112. Path Sum
     fun hasPathSum(root: TreeNode?, targetSum: Int): Boolean {
         if(root == null) return false

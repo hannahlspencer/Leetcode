@@ -1,4 +1,4 @@
-class Leetcode5 {
+class Leetcode0005 {
     fun longestPalindrome(s: String): String {
         var result = ""
         var resultLength = 0

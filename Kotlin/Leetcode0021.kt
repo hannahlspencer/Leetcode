@@ -1,4 +1,4 @@
-class Leetcode21 {
+class Leetcode0021 {
     fun mergeTwoLists(list1: ListNode?, list2: ListNode?): ListNode? {
         // 21. Merge Two Sorted Lists
         var firstNode: ListNode? = ListNode()

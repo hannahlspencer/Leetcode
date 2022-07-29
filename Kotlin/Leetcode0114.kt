@@ -1,4 +1,4 @@
-class Leetcode114 {
+class Leetcode0114 {
     fun flatten(root: TreeNode?): Unit {
         if(root == null || (root.left == null && root.right == null)) {
             return;

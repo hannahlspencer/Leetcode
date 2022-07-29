@@ -1,4 +1,4 @@
-class Leetcode4 {
+class Leetcode0004 {
     fun findMedianSortedArrays(nums1: IntArray, nums2: IntArray): Double {
         val first = mergeArrays(nums1, nums2)
         return findArrMedian(first)
