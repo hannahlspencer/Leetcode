@@ -17,7 +17,7 @@ class LeetCode0007 {
         while(result.get(0) == '0') {
             result = result.drop(1)
         }
-        if(minus) {
+        if(negative) {
             result = '-' + result
         }
         try {

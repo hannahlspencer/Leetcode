@@ -5,7 +5,7 @@ import (
 	"strconv"
 )
 
-func main() {
+func l0009s() {
 	fmt.Print(isPalindrome(1221))
 }
 

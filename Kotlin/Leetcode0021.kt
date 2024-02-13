@@ -1,7 +1,11 @@
 class Leetcode0021 {
+
+    class ListNode(var `val`: Int?) {
+        var next: ListNode? = null
+    }
     fun mergeTwoLists(list1: ListNode?, list2: ListNode?): ListNode? {
         // 21. Merge Two Sorted Lists
-        var firstNode: ListNode? = ListNode()
+        var firstNode: ListNode? = ListNode(null)
 
         var first = list1
         var second = list2
@@ -10,7 +14,7 @@ class Leetcode0021 {
 
         while(first != null && second != null) {
 
-            if(second!!.`val` < first!!.`val`) {
+            if(second!!.`val`!! < first!!.`val`!!) {
                 current!!.next = second
                 second = second!!.next
             } else {

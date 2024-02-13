@@ -1,4 +1,8 @@
 class Leetcode0002 {
+
+    class ListNode(var `val`: Int) {
+        var next: ListNode? = null
+    }
     fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
         val first = convertToString(l1, "").toBigInteger()
         val second = convertToString(l2, "").toBigInteger()

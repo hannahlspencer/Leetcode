@@ -1,4 +1,4 @@
-class Solution {
+class Leetcode0013 {
     fun romanToInt(s: String): Int {
         var result = 0
         var start = s
